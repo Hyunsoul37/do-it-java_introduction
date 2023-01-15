@@ -7,6 +7,7 @@ public class EnhancedForLoop {
 		
 		for(String lang : strArray) {
 			System.out.println(lang);
+			
 		}
 	}
 
