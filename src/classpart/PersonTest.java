@@ -4,11 +4,11 @@ public class PersonTest {
 
 	public static void main(String[] args) {
 		Person personKim = new Person();
-		personKim.name = "±èÀ¯½Å";
+		personKim.name = "ê¹€ìœ ì‹ ";
 		personKim.weight = 85.5f;
 		personKim.height = 180.0f;
 		
-		Person personLee = new Person("ÀÌ¼ø½Å", 175, 75);
+		Person personLee = new Person("ì´ìˆœì‹ ", 175, 75);
 	}
 
 }

@@ -10,7 +10,7 @@ public class ForExample {
 			sum+=i;
 		}
 		
-		System.out.println("1ºÎÅÍ 10±îÁöÀÇ ÇÕÀº" + sum + "ÀÔ´Ï´Ù.");
+		System.out.println("1ë¶€í„° 10ê¹Œì§€ì˜ í•©ì€" + sum + "ì…ë‹ˆë‹¤.");
 	}
 
 }

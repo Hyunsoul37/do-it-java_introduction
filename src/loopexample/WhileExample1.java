@@ -11,7 +11,7 @@ public class WhileExample1 {
 			num++;
 		}
 		
-		System.out.println("1 ºÎÅÍ 10±îÁöÀÇ ÇÕÀº " + sum + "ÀÔ´Ï´Ù.");
+		System.out.println("1 ë¶€í„° 10ê¹Œì§€ì˜ í•©ì€ " + sum + "ì…ë‹ˆë‹¤.");
 	}
 
 }

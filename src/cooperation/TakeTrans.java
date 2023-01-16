@@ -10,7 +10,7 @@ public class TakeTrans {
 		studentJames.showInfo();
 		bus100.showInfo();
 		
-		Subway subwayGreen = new Subway("2È£¼±");
+		Subway subwayGreen = new Subway("2í˜¸ì„ ");
 		studentTomas.takeSubway(subwayGreen);
 		studentTomas.showInfo();
 		subwayGreen.showInfo();

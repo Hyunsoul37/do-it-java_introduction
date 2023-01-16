@@ -15,7 +15,7 @@ public class Subway {
 	}
 	
 	public void showInfo() {
-		System.out.println(lineNumber + "ÀÇ ½Â°´Àº " + passengerCount + "¸íÀÌ°í, ¼öÀÔÀº "
-				+ money + "ÀÔ´Ï´Ù.");
+		System.out.println(lineNumber + "ì˜ ìŠ¹ê°ì€ " + passengerCount + "ëª…ì´ê³ , ìˆ˜ì…ì€ "
+				+ money + "ì…ë‹ˆë‹¤.");
 	}
 }

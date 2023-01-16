@@ -4,14 +4,14 @@ public class StudentTest4 {
 
 	public static void main(String[] args) {
 		Student2 studentLee = new Student2();
-		studentLee.setStudentName("ÀÌÁö¿ø");
+		studentLee.setStudentName("ì´ì§€ì›");
 		System.out.println(Student2.getSerialNum());
-		System.out.println(studentLee.studentName + " ÇĞ¹ø:" + studentLee.studentID);
+		System.out.println(studentLee.studentName + " í•™ë²ˆ:" + studentLee.studentID);
 		
 		Student2 studentSon = new Student2();
-		studentSon.setStudentName("¼Õ¼ö°æ");
+		studentSon.setStudentName("ì†ìˆ˜ê²½");
 		System.out.println(Student2.getSerialNum());
-		System.out.println(studentSon.studentName + " ÇĞ¹ø:" + studentSon.studentID);
+		System.out.println(studentSon.studentName + " í•™ë²ˆ:" + studentSon.studentID);
 	}
 
 }

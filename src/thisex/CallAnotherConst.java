@@ -5,7 +5,7 @@ class Person {
 	int age;
 	
 	Person() {
-		this("ÀÌa ¾øÀ½", 1);
+		this("ì´ë¥¾ ì—†ìŒ", 1);
 	}
 	
 	Person(String name, int age) {

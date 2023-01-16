@@ -12,7 +12,7 @@ public class ContinueExample {
 			total += num;
 		}
 		
-		System.out.println("1╨нем 100╠НаЖюг х╕╪Ж гую╨ " + total + " ют╢о╢ы.");
+		System.out.println("1К╤─М└╟ 100Й╧▄Л╖─Л²≤ М≥─Л┬≤ М∙╘Л²─ " + total + " Л·┘К▀┬К▀╓.");
 	}
 
 }

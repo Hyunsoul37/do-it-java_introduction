@@ -6,9 +6,9 @@ public class ObjectCopy2 {
 		Book[] bookArray1 = new Book[3];
 		Book[] bookArray2 = new Book[3];
 
-		bookArray1[0] = new Book("ÅÂ¹é»ê¸Æ", "Á¶Á¤·¡");
-		bookArray1[1] = new Book("µ¥¹Ì¾È", "Çì¸£¸¸ Çì¼¼");
-		bookArray1[2] = new Book("¾î¶»°Ô »ì°ÍÀÎ°¡", "À¯½Ã¹Î");
+		bookArray1[0] = new Book("íƒœë°±ì‚°ë§¥", "ì¡°ì •ë˜");
+		bookArray1[1] = new Book("ë°ë¯¸ì•ˆ", "í—¤ë¥´ë§Œ í—¤ì„¸");
+		bookArray1[2] = new Book("ì–´ë–»ê²Œ ì‚´ê²ƒì¸ê°€", "ìœ ì‹œë¯¼");
 
 		System.arraycopy(bookArray1, 0, bookArray2, 0, 3);
 
@@ -17,8 +17,8 @@ public class ObjectCopy2 {
 		}
 		
 		System.out.println("=== bookArray1===");
-		bookArray1[0].setBookName("³ª¸ñ");
-		bookArray1[0].setAuthor("¹Ú¿Ï¼­");
+		bookArray1[0].setBookName("ë‚˜ëª©");
+		bookArray1[0].setAuthor("ë°•ì™„ì„œ");
 		
 		System.out.println("=== bookArray2===");
 		for (int i = 0; i < bookArray2.length; i++) {

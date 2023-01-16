@@ -1,10 +1,10 @@
 package classpart;
 
 public class Student {
-	int studentID;			// ÇĞ¹ø
-	String studentName;		// ÇĞ»ı ÀÌ¸§
-	int grade;				// ÇĞ³â
-	String address;			// »ç´Â °÷
+	int studentID;			// í•™ë²ˆ
+	String studentName;		// í•™ìƒ ì´ë¦„
+	int grade;				// í•™ë…„
+	String address;			// ì‚¬ëŠ” ê³³
 	
 	public String getStudentName() {
 		return studentName;
@@ -16,7 +16,7 @@ public class Student {
 	
 	public static void main(String[] args) {
 		Student studentAnn = new Student();
-		studentAnn.setStudentName("¾È¿¬¼ö");
+		studentAnn.setStudentName("ì•ˆì—°ìˆ˜");
 		
 		System.out.println(studentAnn.studentName);
 		System.out.println(studentAnn.getStudentName());

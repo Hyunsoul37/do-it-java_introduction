@@ -4,7 +4,7 @@ public class StudentTest {
 
 	public static void main(String[] args) {
 		Student studentAnn = new Student();
-		studentAnn.setStudentName("¾È¿¬¼ö");
+		studentAnn.setStudentName("ì•ˆì—°ìˆ˜");
 		
 		System.out.println(studentAnn.studentName);
 		System.out.println(studentAnn.getStudentName());

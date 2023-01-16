@@ -4,12 +4,12 @@ public class StudentTest {
 
 	public static void main(String[] args) {
 		Student studentLee = new Student();
-		studentLee.setStudentName("ÀÌÁö¿ø");
+		studentLee.setStudentName("ì´ì§€ì›");
 		System.out.println(studentLee.serialNum);
 		studentLee.serialNum++;
 		
 		Student studentSon = new Student();
-		studentSon.setStudentName("¼Õ¼ö°æ");
+		studentSon.setStudentName("ì†ìˆ˜ê²½");
 		System.out.println(studentSon.serialNum);
 		System.out.println(studentLee.serialNum);
 	}

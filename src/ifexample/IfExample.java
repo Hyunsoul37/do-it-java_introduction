@@ -5,10 +5,10 @@ public class IfExample {
 	public static void main(String[] args) {
 		int age = 7;
 		if(age >= 8) {
-			System.out.println("ÇĞ±³¿¡ ´Ù´Õ´Ï´Ù.");
+			System.out.println("í•™êµì— ë‹¤ë‹™ë‹ˆë‹¤.");
 		}
 		else {
-			System.out.println("ÇĞ±³¿¡ ´Ù´ÏÁö ¾Ê½À´Ï´Ù.");
+			System.out.println("í•™êµì— ë‹¤ë‹ˆì§€ ì•ŠìŠµë‹ˆë‹¤.");
 		}
 	}
 

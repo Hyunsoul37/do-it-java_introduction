@@ -1,11 +1,11 @@
 package classpart;
 
 public class Person {
-	String name;		// ÀÌ¸§
-	float height;			// Å°
-	float weight;		// ¸ö¹«°Ô
-	char gender;		// ¼ºº°
-	boolean married;	// °áÈ¥ ¿©ºÎ
+	String name;		// ì´ë¦„
+	float height;			// í‚¤
+	float weight;		// ëª¸ë¬´ê²Œ
+	char gender;		// ì„±ë³„
+	boolean married;	// ê²°í˜¼ ì—¬ë¶€
 	
 	public Person() { }
 

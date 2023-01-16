@@ -4,10 +4,10 @@ public class StudentTest1 {
 
 	public static void main(String[] args) {
 		Student student1 = new Student();
-		student1.setStudentName("¾È¿¬¼ö");
+		student1.setStudentName("ì•ˆì—°ìˆ˜");
 		
 		Student student2 = new Student();
-		student2.setStudentName("¾È½Â¿¬");
+		student2.setStudentName("ì•ˆìŠ¹ì—°");
 		
 		System.out.println(student1.getStudentName());
 		
