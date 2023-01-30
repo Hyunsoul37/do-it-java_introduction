@@ -14,6 +14,7 @@ public interface Calc {
 	
 	default void description() {
 		System.out.println("정수 계산기를 구현합니다.");
+		myMethod();
 	}
 	
 	static int total(int[] arr) {
@@ -22,6 +23,15 @@ public interface Calc {
 		for(int i : arr) {
 			total += i;
 		}
+		myStaticMethod();
 		return total;
+	}
+	
+	private void myMethod() {
+		System.out.println("private 메서드 입니다.");
+	}
+	
+	private static void myStaticMethod() {
+		System.out.println("private static 메서드 입니다.");
 	}
 }
